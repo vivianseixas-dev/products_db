@@ -1,21 +1,18 @@
 # Projeto: Sistema de Controle de Estoque (SQL)
 
-```mermaid
+'''mermaid
 erDiagram
     CATEGORIAS {
-        int id
         string nome
     }
     PRODUTOS {
-        int id
         string nome
         string descricao
         decimal preco
         int quantidade_estoque
-        int categoria_id
         timestamp data_cadastro
     }
-    CATEGORIAS ||--o{ PRODUTOS : "contem"
+    CATEGORIAS ||--o{ PRODUTOS : "contem"'''
 
 Bem-vindo ao repositório do meu projeto prático de Banco de Dados! Desenvolvi este sistema para consolidar meus estudos iniciais em SQL utilizando o MySQL, focando em boas práticas de gerenciamento de dados.
 
