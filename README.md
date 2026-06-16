@@ -1,6 +1,6 @@
 # Projeto: Sistema de Controle de Estoque (SQL)
 
-'''mermaid
+```mermaid
 erDiagram
     CATEGORIAS {
         string nome
@@ -12,7 +12,8 @@ erDiagram
         int quantidade_estoque
         timestamp data_cadastro
     }
-    CATEGORIAS ||--o{ PRODUTOS : "contem"'''
+    CATEGORIAS ||--o{ PRODUTOS : "contem"
+```
 
 Bem-vindo ao repositório do meu projeto prático de Banco de Dados! Desenvolvi este sistema para consolidar meus estudos iniciais em SQL utilizando o MySQL, focando em boas práticas de gerenciamento de dados.
 
