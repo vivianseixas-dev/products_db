@@ -1,5 +1,7 @@
 # Projeto: Sistema de Controle de Estoque (SQL)
 
+![Diagrama de Entidade-Relacional do Projeto](diagrama.png)
+
 Bem-vindo ao repositório do meu projeto prático de Banco de Dados! Desenvolvi este sistema para consolidar meus estudos iniciais em SQL utilizando o MySQL, focando em boas práticas de gerenciamento de dados.
 
 O objetivo do projeto foi criar um fluxo completo de gerenciamento de produtos e categorias, aplicando conceitos de modelagem relacional e integridade de dados.
