@@ -3,13 +3,16 @@
 ```mermaid
 erDiagram
     CATEGORIAS {
+        int id PK
         string nome
     }
     PRODUTOS {
+        int id PK
         string nome
         string descricao
         decimal preco
         int quantidade_estoque
+        int categoria_id FK
         timestamp data_cadastro
     }
     CATEGORIAS ||--o{ PRODUTOS : "contem"
