@@ -1,6 +1,21 @@
 # Projeto: Sistema de Controle de Estoque (SQL)
 
-![Diagrama de Entidade-Relacional do Projeto](diagrama.png)
+```mermaid
+erDiagram
+    CATEGORIAS {
+        int id PK
+        varchar nome UNIQUE
+    }
+    PRODUTOS {
+        int id PK
+        varchar nome
+        text descricao
+        decimal preco
+        int quantidade_estoque
+        int categoria_id FK
+        timestamp data_cadastro
+    }
+    CATEGORIAS ||--o{ PRODUTOS : "contém"
 
 Bem-vindo ao repositório do meu projeto prático de Banco de Dados! Desenvolvi este sistema para consolidar meus estudos iniciais em SQL utilizando o MySQL, focando em boas práticas de gerenciamento de dados.
 
