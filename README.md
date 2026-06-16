@@ -3,19 +3,19 @@
 ```mermaid
 erDiagram
     CATEGORIAS {
-        int id PK
-        varchar nome UNIQUE
+        int id
+        string nome
     }
     PRODUTOS {
-        int id PK
-        varchar nome
-        text descricao
+        int id
+        string nome
+        string descricao
         decimal preco
         int quantidade_estoque
-        int categoria_id FK
+        int categoria_id
         timestamp data_cadastro
     }
-    CATEGORIAS ||--o{ PRODUTOS : "contém"
+    CATEGORIAS ||--o{ PRODUTOS : "contem"
 
 Bem-vindo ao repositório do meu projeto prático de Banco de Dados! Desenvolvi este sistema para consolidar meus estudos iniciais em SQL utilizando o MySQL, focando em boas práticas de gerenciamento de dados.
 
